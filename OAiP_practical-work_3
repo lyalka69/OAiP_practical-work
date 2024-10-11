@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace practicalwork_4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //2.	Дана длина ребра куба. Найти объем куба и площадь его боковой поверхности.
+            Console.WriteLine("Введите длину куба (a): ");
+            int a = int.Parse(Console.ReadLine());
+            //V = a3, Sбок = 4a2, Sполн = 6a2, где a – длина ребра куба.
+            double V = Math.Pow(a, 3);
+            double Sбок = 4 * Math.Pow(a, 2);
+            Console.WriteLine($"V ={V} \nSбок ={Sбок}");
+            Console.ReadKey();
+
+            //2.	Пусть р и п - целые положительные числа и п=123456. Чему равно значение р после выполнения оператора присваивания: р:= n div 100 mod 10.
+            int n = 123456;
+            int p = (n / 100) % 10;
+            Console.WriteLine($"p = {p}");
+            Console.ReadKey();
+
+            //2.  Решить уравнение.
+            int x = 2;
+            double y = (Math.Atan(Math.Pow(x, 3))) / (Math.Abs(x - Math.Sqrt(Math.Sin(x))) + Math.Pow(x, 3));
+            Console.WriteLine($"y = {y}");
+            Console.ReadKey();
+
+            //2.  а^6 за три операции, а – действительное число,
+            //при этом не пользуясь никакими другими арифметическими операциями, кроме умножения.
+            double a = 2.0; // Пример значения a
+            double b = a * a;   // a^2
+            double c = b * b;   // a^4
+            double d = c * b;   // a^6
+            Console.WriteLine(d); // Вывод: a^6
+    
+        }
+    }
+}
