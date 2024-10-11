@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace practicalwok_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //25.	Даны основания и высота равнобедренной трапеции. Найти ее площадь.
+            
+            Console.Write("Введите основание *a* равнобердренной трапеции: ");
+            double a = int.Parse(Console.ReadLine());
+            Console.Write("Введите основание *b* равнобердренной трапеции: ");
+            double b = int.Parse(Console.ReadLine());
+            Console.Write("Введите основание *h* равнобердренной трапеции: ");
+            double h = int.Parse(Console.ReadLine());
+            double S = (a + b) / 2 * h;
+            Console.WriteLine($"({a} + {b}) / 2 * {h} = {S} - площадь равнобедренной трапеции");
+            Console.ReadKey();
+            
+            //25.	Сколько времени в минутах затратит школьник на дорогу от школы до стадиона,
+            //если это расстояние составляет S км, а средняя скорость движения школьника – V km/ч.
+            
+            Console.Write("Введите расстояние от школы до стадиона (в км): ");
+            double S = double.Parse(Console.ReadLine());
+            Console.Write("Введите среднюю скорость школьника (в км/ч): ");
+            double V = double.Parse(Console.ReadLine());
+            double min = (S / V) * 60;
+            Console.WriteLine($"Школьник затратит {min} минут на дорогу.");
+            Console.ReadKey();
+
+            //25. Решите уравнение..
+            
+            double x = 3;
+            double sin2x = Math.Sin(2 * x); // -0,279
+            if (sin2x > 0)
+            {
+                double y = (Math.PI / 3) + ((Math.Pow(3, x) / Math.Sqrt(sin2x)) + 1);
+                Console.WriteLine($"x = 3, y = {y}");
+            }
+            else
+            {
+                Console.WriteLine("Ошибка: sin(2x) отрицателен, невозможно извлечь квадратный корень.");
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+
+            //25. 4x - 2x^2 - 4x^3 и 8 - 2x + 8x^2 + 4x^3, если дано действительное число х. Разрешается использовать не более восьми операций,
+            // но при этом, не пользуясь никакими другими арифметическими операциями, кроме умножения, сложения и вычитания.
+
+            Console.Write("Введите значение x: ");
+            double x = double.Parse(Console.ReadLine());
+
+            //Считаем A и B
+            double A = 4 * x - 2 * x * x - 4 * x * x * x; // 4x - 2x^2 - 4x^3
+            double B = 8 - 2 * x + 8 * x * x + 4 * x * x * x; // 8 - 2x + 8x^2 + 4x^3
+
+            //Объединяем
+            double result = A + B;
+
+            Console.WriteLine($"Результат A + B: {result}");
+            Console.ReadKey();
+        }
+    }
+}
