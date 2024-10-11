@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace practicalwork_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //5.	Дан номер карты k ( ), определить достоинство карты. Достоинства определяются по следующему правилу:
+            //"туз" - 14, "король" - 13, "дама" - 12, "валет" - 11, "десятка" - 10, …, "шестерка" - 6. 
+ 
+            Console.Write("Введите номер карты (k): ");
+            int k = int.Parse(Console.ReadLine());
+            string cardvalue;
+ 
+            switch (k)
+            {
+                case 14:
+                    cardvalue = "туз";
+                    break;
+                case 13:
+                    cardvalue = "король";
+                    break;
+                case 12:
+                    cardvalue = "дама";
+                    break;
+                case 11:
+                    cardvalue = "валет";
+                    break;
+                case 10:
+                    cardvalue = "десятка";
+                    break;
+                case 9:
+                    cardvalue = "девятка";
+                    break;
+                case 8:
+                    cardvalue = "восьмёрка";
+                    break;
+                case 7:
+                    cardvalue = "семёрка";
+                    break;
+                case 6:
+                    cardvalue = "шестёрка";
+                    break;
+                default:
+                    cardvalue = "введён не верный номер карты";
+                    break;
+            }
+            Console.WriteLine($"Достоинство карты: {cardvalue}");
+ 
+            //5.Найти наименьший делитель заданного натурального числа A(не считая единицы).
+ 
+            Console.Write("Введите натуральное число (A): ");
+            int A = int.Parse(Console.ReadLine());
+            int m = 2;
+             while (A % m != 0)
+            {
+                m++;
+            }
+            Console.WriteLine($"наименьший делитель: {m}");
+            Console.ReadKey();
+        }
+    }
+}
