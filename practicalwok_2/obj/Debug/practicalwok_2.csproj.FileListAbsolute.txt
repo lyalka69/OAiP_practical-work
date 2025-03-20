@@ -1,0 +1,7 @@
+D:\Ttip\c# ОАиП\practicalwok_2\bin\Debug\practicalwok_2.exe.config
+D:\Ttip\c# ОАиП\practicalwok_2\bin\Debug\practicalwok_2.exe
+D:\Ttip\c# ОАиП\practicalwok_2\bin\Debug\practicalwok_2.pdb
+D:\Ttip\c# ОАиП\practicalwok_2\obj\Debug\practicalwok_2.csproj.AssemblyReference.cache
+D:\Ttip\c# ОАиП\practicalwok_2\obj\Debug\practicalwok_2.csproj.CoreCompileInputs.cache
+D:\Ttip\c# ОАиП\practicalwok_2\obj\Debug\practicalwok_2.exe
+D:\Ttip\c# ОАиП\practicalwok_2\obj\Debug\practicalwok_2.pdb
