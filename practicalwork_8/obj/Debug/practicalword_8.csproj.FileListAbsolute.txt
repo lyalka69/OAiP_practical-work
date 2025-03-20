@@ -1,0 +1,14 @@
+D:\Ttip\c# ОАиП\practicalword_8\bin\Debug\practicalword_8.exe.config
+D:\Ttip\c# ОАиП\practicalword_8\bin\Debug\practicalword_8.exe
+D:\Ttip\c# ОАиП\practicalword_8\bin\Debug\practicalword_8.pdb
+D:\Ttip\c# ОАиП\practicalword_8\obj\Debug\practicalword_8.csproj.AssemblyReference.cache
+D:\Ttip\c# ОАиП\practicalword_8\obj\Debug\practicalword_8.csproj.CoreCompileInputs.cache
+D:\Ttip\c# ОАиП\practicalword_8\obj\Debug\practicalword_8.exe
+D:\Ttip\c# ОАиП\practicalword_8\obj\Debug\practicalword_8.pdb
+D:\Ttip\c# ОАиП\practicalwork_8\bin\Debug\practicalword_8.exe.config
+D:\Ttip\c# ОАиП\practicalwork_8\bin\Debug\practicalword_8.exe
+D:\Ttip\c# ОАиП\practicalwork_8\bin\Debug\practicalword_8.pdb
+D:\Ttip\c# ОАиП\practicalwork_8\obj\Debug\practicalword_8.csproj.AssemblyReference.cache
+D:\Ttip\c# ОАиП\practicalwork_8\obj\Debug\practicalword_8.csproj.CoreCompileInputs.cache
+D:\Ttip\c# ОАиП\practicalwork_8\obj\Debug\practicalword_8.exe
+D:\Ttip\c# ОАиП\practicalwork_8\obj\Debug\practicalword_8.pdb
