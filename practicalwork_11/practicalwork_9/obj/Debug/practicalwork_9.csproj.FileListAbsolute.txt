@@ -1,0 +1,7 @@
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\bin\Debug\practicalwork_9.exe.config
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\bin\Debug\practicalwork_9.exe
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\bin\Debug\practicalwork_9.pdb
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\obj\Debug\practicalwork_9.csproj.AssemblyReference.cache
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\obj\Debug\practicalwork_9.csproj.CoreCompileInputs.cache
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\obj\Debug\practicalwork_9.exe
+D:\Ttip\c# ОАиП\practicalwork_11\practicalwork_9\obj\Debug\practicalwork_9.pdb
